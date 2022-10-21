@@ -4,10 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <title>Store App</title>
 </head>
 <body>
-    
+    <header>
+        <section class="headerContainer">
+            <img class='headerImg' src="./Images/menuIcon.png" alt="Menu" />
+            <h3 class="headerText">flavo</h3>
+            <img class='headerImg' src="./Images/purseIcon.png" alt="Purse icon" />
+        </section>
+    </header>
+    <main>
+        <section class="mainContainer">
+            <figure>
+                <img class='productImg' src="./Images/productPhoto.png" />
+            </figure>
+            <section class="descriptionProduct">
+                <div class="productNameAndPrice">
+                    <h2 class="productName">PASSION</h2>
+                    <h2>$15</h2>
+                </div>
+                <h3>WHAT'S INSIDE</h3>
+                <p>Chili, oregano, safran, paprika</p>
+                <h3>WHY WE LOVE IT</h3>
+                <p>This one will add a little savoury flavour to any food and turn any meal to a culinary masterpiece.</p>
+
+                <div class="sizeOptions">
+                    <div class="optionBag">
+                        <input type="radio" name="bagSize" id="bagSize" checked>
+                        <label for="bagSize">BAG (75g)</label>
+                    </div>
+                    <div class="optionJar">
+                        <input type="radio" name="jarSize" id="jarSize">
+                        <label for="jarSize">JAR (150g)</label>  
+                    </div>  
+                </div>
+            </section>
+            <div class="quantity">
+                <button>-</button>
+                <h3>1</h3>
+                <button>+</button>
+               </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footerContainer">
+            <button class="cartOption">
+                ADD TO CART
+                <img class="cartPic" src="./Images/shoppingCart.png" />
+            </button>
+        </section>
+    </footer>
 </body>
 </html>
